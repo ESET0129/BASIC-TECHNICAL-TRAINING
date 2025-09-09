@@ -26,10 +26,19 @@ select * from Categories
 select * from Authors
 
 /* inner join*/
-SELECT Book.CategoryId, Book.Name, Categories.Id, Categories.Name
+
+SELECT Book.CategoriesId, Book.Name, Categories.Id, Categories.Name
 FROM Book
 INNER JOIN Categories
-ON Book.CategoryId = Categories.Id
+ON Book.CategoriesId = Categories.Id 
+
+/* left joins */
+select book.CategoryId, book.Name, Categories.id, Categories.Name
+from book
+
+
+
+
 
 
 

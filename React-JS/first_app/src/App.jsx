@@ -36,8 +36,12 @@ function App() {
 //   return nums.reduce9(s,n) => s+n,a);
 //}
 
-const user={name:"abc",age:21,place:"manglore"}
-const {name,...rest}=user;
+//const user={name:"abc",age:21,place:"manglore"}
+//const {name,...rest}=user;
+const name=`ss`;
+const msg = `hello ${name},
+Welcome to React `;
+
 console.log(name);
 console.log(rest);
 

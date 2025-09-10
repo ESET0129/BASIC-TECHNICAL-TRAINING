@@ -1,4 +1,5 @@
 -- Creating the table part 1 of task 1
+--  book order user table
 CREATE TABLE usersss (
     user_id INT PRIMARY KEY,
     user_name VARCHAR(100) NOT NULL
@@ -44,6 +45,8 @@ select * from booksss
 select * from usersss
 
 -- second part of task 1
+-- row number
+--rank
 
 SELECT
         u.user_id,
@@ -65,5 +68,35 @@ SELECT
     user_id, price DESC;
 
 -- ASSIGNMENT 2
+--user spent in total
+--Sum(price)
+--PARTITION BY user id
+
+WITH UserSpending AS (
+    SELECT
+        u.user_id,
+        u.user_name,
+        SUM(b.price) AS total_spending,
+        RANK() OVER (ORDER BY SUM(b.price) DESC) AS rnk,
+        DENSE_RANK() OVER (ORDER BY SUM(b.price) DESC) AS drnk
+    FROM
+        usersss u
+    JOIN
+        ordersss o ON u.user_id = o.user_id
+    JOIN
+        booksss b ON o.book_id = b.book_id
+    GROUP BY
+        u.user_id, u.user_name
+)
+SELECT
+    user_id,
+    user_name,
+    total_spending,
+    rnk,
+    drnk
+FROM
+    UserSpending
+ORDER BY
+    total_spending DESC;
 
 

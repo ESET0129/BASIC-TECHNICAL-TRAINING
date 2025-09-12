@@ -1,0 +1,5 @@
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.AssemblyInfoInputs.cache
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.AssemblyInfo.cs
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.csproj.CoreCompileInputs.cache
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.sourcelink.json

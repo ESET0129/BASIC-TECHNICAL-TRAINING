@@ -1,0 +1,5 @@
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\Student_grade_evaluator\obj\Debug\net8.0\Student_grade_evaluator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\Student_grade_evaluator\obj\Debug\net8.0\Student_grade_evaluator.AssemblyInfoInputs.cache
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\Student_grade_evaluator\obj\Debug\net8.0\Student_grade_evaluator.AssemblyInfo.cs
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\Student_grade_evaluator\obj\Debug\net8.0\Student_grade_evaluator.csproj.CoreCompileInputs.cache
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\Student_grade_evaluator\obj\Debug\net8.0\Student_grade_evaluator.sourcelink.json

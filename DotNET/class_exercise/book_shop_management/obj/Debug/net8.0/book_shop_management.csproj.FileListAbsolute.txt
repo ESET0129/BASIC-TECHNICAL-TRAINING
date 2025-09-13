@@ -1,5 +1,23 @@
+<<<<<<< HEAD
 D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.GeneratedMSBuildEditorConfig.editorconfig
 D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.AssemblyInfoInputs.cache
 D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.AssemblyInfo.cs
 D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.csproj.CoreCompileInputs.cache
 D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.sourcelink.json
+=======
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.AssemblyInfoInputs.cache
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.AssemblyInfo.cs
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.csproj.CoreCompileInputs.cache
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.sourcelink.json
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\bin\Debug\net8.0\book_shop_management.exe
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\bin\Debug\net8.0\book_shop_management.deps.json
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\bin\Debug\net8.0\book_shop_management.runtimeconfig.json
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\bin\Debug\net8.0\book_shop_management.dll
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\bin\Debug\net8.0\book_shop_management.pdb
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.dll
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\refint\book_shop_management.dll
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.pdb
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\book_shop_management.genruntimeconfig.cache
+D:\Shantanu Swaraj\basic technical training\DotNET\class_exercise\book_shop_management\obj\Debug\net8.0\ref\book_shop_management.dll
+>>>>>>> 448ee05 (book shop managment 12th september)

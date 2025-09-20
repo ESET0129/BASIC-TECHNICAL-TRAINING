@@ -1,0 +1,46 @@
+import React from "react";
+function loginform(){
+
+const [loginState, setLoginState] = React.useState({
+    username: "",
+    password: ""
+});
+
+const onusernameChangehandler = (event) => {
+setLoginState({
+    ...loginState,
+    username: event.target.value
+});
+
+const onpasswordChangehandler = (event) => {
+    setLoginState({
+        ...loginState,
+        password: event.target.value
+    });
+
+const onSubmitHandler = (event) => {
+    console.log("onsubmithandler",event);
+    event.preventDefault();//to handle auto refresh of page
+    if(loginState.username != "username" && loginState.password != "password"){
+        alert("Invalid username or password");
+        return;
+    } 
+    alert("Login Successful");
+}
+
+    return(
+        <div>
+
+            <form onSubmit={ (event) => { onSubmitHandler(event) 
+            }}>
+            <input type="text" value={loginState.username } onChange={onusernameChangehandler} />
+            <br />
+            <input type="password" value={loginState.password } onChange={onpasswordChangehandler} />
+            <br />
+            <button>Login</button>
+            <button type= "reset">Reset</button>
+            </form>
+        </div>
+    )
+}
+}}

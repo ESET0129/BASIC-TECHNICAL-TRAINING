@@ -1,60 +1,23 @@
-// import logo from './logo.svg';
-// import './App.css';
-import UseStateComponent from "./components/usestatecomponent.js";
-import buttoncomponent from "./src/buttoncomponent.js";
 import React from "react";
-import useeffectcomponent from "./components/useeffectcomponent.js";
-import FormEvenComponents from "./components/FormEventComponets.js";
-import Loginform from "./components/loginformcomponent.js";
-/*
-function MouseEvent() {
-     const buttonHandler = () =>{
-        console.log("hello");
-      };
+import { createContext, useState } from "react";
+import UseContextSample from "./components1/UseContextSample";
 
-  return (
-    <>
-    <button onClick={buttonHandler}>click</button>
-    <buttoncomponent/>
-    </>
-    //<div className="App">{
-       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        { <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p> }
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> 
-   
-    //}</div>
-  );
-}
-*/
+const Context = createContext();
 
-function MouseEvent(){
+export {Context}
+function App(){
+  console.log(React)
+  const [count,setCount]=useState(0);
+  const [username,setUsername]=useState("username");
   return(
-    <>
-    </>
+    <Context.Provider value={{
+      count:count,
+      setCount:setCount,
+      username,
+      setUsername}} >
+      <UseContextSample/>
+    </Context.Provider>
   )
 }
-
-<UseStateComponent>
-  <div>
-
-  </div>
-
-</UseStateComponent>
-
-<useeffectcomponent></useeffectcomponent>
-
-<FormEvenComponents></FormEvenComponents>
-<Loginform></Loginform> 
 
 export default App;

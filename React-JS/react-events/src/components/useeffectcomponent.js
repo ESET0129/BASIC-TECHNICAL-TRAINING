@@ -1,36 +1,32 @@
-import { use } from "react";
+import React, { useEffect, useState,memo } from 'react'
 
-    export default function useEffectComponent(){
-const{recommendations, setRecommendations} = useState([]);
-useEffect(() => {
-    setRecommendations(suggestions);
-}, []);
+export default function UseEffectComponent() {
 
-    const [user,setUser] = useState([]);
-    useEffect(() => {
-        //fetch("https://jsonplaceholder.typicode.com/users")
-        fetch("https://learn.future-proof.app/courses/68ac3785af48f8dd36f92d2f")
-        .then((response) => response.json())
-        .then((data) => setUser(data));
-    }, []);
+    const suggestions = [
+        "maxhub",
+        "laptop",
+        "bottle",
+        "car"
+    ];
+    const [recomendation,setRecomendation] = useState([]);
+    const [search,setSearch]=useState("");
+    useEffect(()=>{
+         setRecomendation(suggestions.filter((element)=>element.includes(search)));
+    },[search]);
+
+  return (
+    <div>
+        <input value={search} onChange={(e)=>setSearch(e.target.value)}/>
+      {
+        recomendation.map((rec,index)=>(<ListTile index={index} rec={rec}/>))
+      }
+    </div>
+  )
 }
 
-const suggestions = [
-    apple,
-    banana,
-    mango,
-    grapes
-]
-
-const[search, setSearch] = useState("");
-
-return(
-    <div>
-        <input value={(search)} onChange={(e) => setSearch(e.target.value)}/>
-        
-        
-        {recommendations.map((suggestions) => (
-            <div key={suggestions}>{suggestions}</div>
-        ))}
-    </div>
-)
+const ListTile = memo(({index,rec}) =>{
+    console.log("child rendered",rec)
+    return <div key={index}>{index}.{rec}</div>
+},(prevProps,newProps)=>{
+   return false
+})
